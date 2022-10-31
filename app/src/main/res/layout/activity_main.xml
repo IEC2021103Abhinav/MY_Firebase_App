@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firebaseapplconstraintlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/authenticationtv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Authentication"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/registerbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="REGISTER" />
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="LOGIN" />
+
+        <TextView
+            android:id="@+id/readandwritetv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Resd and write Data"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/writesmpldatabtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFEB3B"
+            android:text="WRITE SIMPLE DATA" />
+
+        <Button
+            android:id="@+id/readsmpldatabtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFEB3B"
+            android:text="READ SIMPLE DATA" />
+
+        <Button
+            android:id="@+id/writeobjectbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#8BC34A"
+            android:text="WRITE AN OBJECT" />
+
+        <Button
+            android:id="@+id/readobjectbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8BC34A"
+            android:text="READ AN OBJECT" />
+
+        <Button
+            android:id="@+id/writemanyobjectsbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F44336"
+            android:text="WRITE MANY OBJECTS" />
+
+        <Button
+            android:id="@+id/readmanyobjectsbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F44336"
+            android:text="READ MANY OBJECTS" />
+
+        <Button
+            android:id="@+id/readcontinuouslybtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#9C27B0"
+            android:text="READ CONTINUOUSLY" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
